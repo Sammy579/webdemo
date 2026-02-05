@@ -1,0 +1,131 @@
+body{
+    background-color:lightblue;
+    color:white;
+    font-family:Arial;
+}
+
+header{
+    background-color:aqua;
+    width:100%;
+    height:60px;
+    top:0;
+    left:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10px;
+    position:fixed;
+    z-index:1000;
+
+}
+header nav{
+   display:flex;
+   flex-direction:row;
+   align-items:center;
+   margin-right:500px;
+}
+header nav ul{
+    list-style:none;
+    display:flex;
+    gap:15px;
+}
+header nav ul li{
+    list-style:none;
+}
+header nav ul li a{
+    list-style:none;
+    text-decoration:none;
+    text-align:center;
+    color:black;
+    font-size:20px;
+}
+aside{
+    display:flex;
+    background-color:white;
+    height:100vh;
+    width:18%;
+    position:fixed;
+    left:0;
+    padding:15px;
+    margin-right:500px;
+}
+aside h2{
+    color:black;
+    font-weight:bold;
+    margin-top:20px;
+    margin-left:10px;
+}
+aside ul{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    margin-top:30px;
+   
+}
+aside ul li a{
+    text-decoration:none;
+    color:#333;
+    font-size:18px;
+}
+main{
+    margin-left:21%;
+    margin-top:70px;
+}
+.bag{
+    display:flex;
+    flex-direction:row;
+    background-color:white;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.image img{
+    width:200px;
+    height:200px;
+    border-radius:10px;
+    margin-left:5px;
+}
+.Content{
+    color:#333;
+    margin-left:10px;
+    margin-top:20px;
+}
+.ocean{
+    background:url("aerial-view-coastline-rocky-cliffs-260nw-2577626491.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.me{
+    font-size:50px;
+}
+.split{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.first-call{
+  display:flex;
+    flex-direction:column;
+    width:40%;
+    left:0;
+}
+input{
+    width:500px;
+    height:30px;
+    
+}
+.other-contact{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    right:20;
+}
+footer{
+    background-color:aqua;
+    text-align:center;
+    padding:10px;
+    bottom:0;
+    width:100%;
+    color:black;
+}
